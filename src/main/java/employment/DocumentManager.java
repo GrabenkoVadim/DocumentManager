@@ -32,6 +32,7 @@ public class DocumentManager {
             storage.put(document.getId(), document);
             return document;
         }
+
         return null;
     }
 
